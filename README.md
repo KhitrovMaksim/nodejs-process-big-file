@@ -11,6 +11,8 @@
 With code:
 ```javascript
 const data = fs.readFileSync('free_company_dataset.csv', 'utf-8')
+
+console.log(data.length)
 ```
 Output is:
 ```shell
@@ -39,6 +41,8 @@ Process finished with exit code 1
 With code:
 ```javascript
 const data = fs.readFileSync('free_company_dataset.csv')
+
+console.log(data.length)
 ```
 Output is:
 ```shell
